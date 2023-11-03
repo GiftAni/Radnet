@@ -723,6 +723,18 @@
     gap: 20px;
 }
 }
+@media screen and (max-width: 600px){
+    .navbar{
+        gap: 50%;
+    }
+    
+}
+@media screen and (max-width: 540px){
+    .navbar{
+        gap: 60%;
+    }
+    
+}
 @media screen and (max-width: 414px){
     .navbar{
         gap: 20%;
