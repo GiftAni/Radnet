@@ -567,11 +567,398 @@
     padding: 0.5em 1.25em;
 }
 }
+@media screen and (max-width: 768px){
+    .navbar{
+        gap: 35%;
+    }
+    .ban-flex{
+        gap: 70px;
+    }
+    .ban-text {
+        margin-left: 70px;
+    }
+
+.ban-text h1 {
+    font-size: 40px;
+    text-align: center;
+}
+.ban-text h1 span{
+font-size: 45px;
+}
+.ban-text p{
+text-align: center;
+  font-size: 10px;
+  margin-top: 10px;
+}
+.ban-text button{
+  border: none;
+  background-color: #ef0c8f;
+  border-radius: 100px 100px 100px 100px;
+  box-shadow: 0px 0px 0px 0px #94e3ff42;
+  padding: 9px 18px 9px 18px;
+  margin-top: 15px;
+  margin-left: 55px;
+}
+.ban-text button a{
+  font-size: 13px;
+}
+.ban-image{
+  margin: 0;
+  width: 350px;
+  
+}
+.about-flex {
+    gap: 50px;
+}
+.about-text h1 {
+    font-size: 25px;
+    text-align: center;
+}
+.about-text h1 span{
+    font-size: 25px;
+}
+.about-text p{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+}
+.about-text button{
+  padding: 9px 18px 9px 18px;
+  margin-top: 15px;
+  margin-left: 120px;
+}
+.about-text button a{
+  font-size: 13px;
+  margin-top: 10px;
+}
+.about-image img{
+    width: 300px;
+    padding-left: 5px;
+}
+.footer-text p{
+    font-size: 12px;
+}
+.footer-text{
+    gap: 20px;
+}
+.footer-flex{
+    gap: 20px;
+}
+}
+
+@media screen and (max-width: 600px){
+    .navbar{
+        gap: 30%;
+    }
+    .ban-flex{
+        gap: 50px;
+        flex-direction: column;
+    }
+    .ban-text{
+        margin-left: 10px;
+        text-align: center;
+    }
+    .ban-text h1 {
+        font-size: 60px;
+        text-align: center;
+  }
+  .ban-text h1 span{
+   font-size: 65px;
+  }
+  .ban-text p{
+    text-align: center;
+      font-size: 16px;
+      margin-top: 10px;
+  }
+  .ban-text button{
+      border: none;
+      background-color: #ef0c8f;
+      border-radius: 100px 100px 100px 100px;
+      box-shadow: 0px 0px 0px 0px #94e3ff42;
+      padding: 9px 18px 9px 18px;
+      margin-top: 15px;
+  }
+  .ban-text button a{
+      font-size: 13px;
+  }
+  .ban-image{
+    margin: 0;
+      width: 450px;
+  }
+  .about-flex{
+    flex-direction: column-reverse;
+    gap: 40px;
+    margin-top: 70px;
+  }
+  .about-text{
+    text-align: center;
+  }
+  .about-text h1 {
+      font-size: 30px;
+      text-align: center;
+  }
+  .about-text h1 span{
+      font-size: 30px;
+  }
+  .about-text p{
+      font-size: 15px;
+      text-align: center;
+      margin-top: 10px;
+  }
+  .about-text button{
+    padding: 9px 18px 9px 18px;
+    margin-top: 15px;
+  }
+  .about-text button a{
+    font-size: 13px;
+    margin-top: 10px;
+}
+  .about-image img{
+      width: 380px;
+      padding-left: 5px;
+  }
+  .time{
+    margin-left: 50px;
+  }
+  .services-bg{
+    margin-top: 70px;
+  }
+  .services-text h1{
+      font-size: 25px;
+  }
+  .services-text h1 span{
+      font-size: 25px;
+  }
+  .services-text p{
+      font-size: 14px;
+  }
+  .contact-image img{
+    width: 350px;
+  }
+  .contact-form p{
+    font-size: 15px;
+  }
+  .contact-form input{
+    padding: 0.5rem 80px;
+    font-size: 14px;
+}
+.contact-form textarea{
+    border-radius: 10px;
+      padding: 5px 80px;
+  }
+  .services-text p {
+    font-size: 14px;
+}
+.vector-flex1{
+    flex-direction: column;
+}
+.vector1 {
+    width: 320px;
+    border-width: 1px 0px 0px 0px;
+
+}
+.vector1 img{
+    width: 80px;
+}
+.vector-text h1 {
+    font-size: 18px;
+}
+.vector-text p{
+    font-size: 16px;
+}
+.contact-flex{
+    flex-direction: column;
+}
+  .contact-form{
+    background-color: #fdeaf3;
+    width: 380px;
+    height: 550px;
+    border-radius: 20px;
+    padding-left: 50px;
+    padding: 40px;
+}
+.contact-form h1{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.contact-form textarea{
+    border-radius: 10px;
+      padding: 5px 50px;
+  }
+.contact-form button{
+    min-width: 3.25rem;
+    margin-top: 10px;
+    padding: 0.5em 1.25em;
+}
+.footer-text p{
+    font-size: 12px;
+}
+.footer-text{
+    gap: 20px;
+}
+.footer-flex{
+    gap: 20px;
+}
+    
+}
+@media screen and (max-width: 540px){
+    .navbar{
+        gap: 30%;
+    }
+    .ban-flex{
+        gap: 50px;
+        flex-direction: column;
+    }
+    .ban-text{
+        margin-left: 10px;
+        text-align: center;
+    }
+    .ban-text h1 {
+        font-size: 55px;
+        text-align: center;
+  }
+  .ban-text h1 span{
+   font-size: 60px;
+  }
+  .ban-text p{
+    text-align: center;
+      font-size: 16px;
+      margin-top: 5px;
+  }
+  .ban-text button{
+      border: none;
+      background-color: #ef0c8f;
+      border-radius: 100px 100px 100px 100px;
+      box-shadow: 0px 0px 0px 0px #94e3ff42;
+      padding: 8px 18px 8px 18px;
+      margin-top: 15px;
+  }
+  .ban-text button a{
+      font-size: 12px;
+  }
+  .ban-image{
+    margin: 0;
+      width: 350px;
+  }
+  .about-flex{
+    flex-direction: column-reverse;
+    gap: 40px;
+    margin-top: 70px;
+  }
+  .about-text{
+    text-align: center;
+  }
+  .about-text h1 {
+      font-size: 28px;
+      text-align: center;
+  }
+  .about-text h1 span{
+      font-size: 28px;
+  }
+  .about-text p{
+      font-size: 14px;
+      text-align: center;
+      margin-top: 5px;
+  }
+  .about-text button{
+    padding: 8px 18px 8px 18px;
+    margin-top: 15px;
+  }
+  .about-text button a{
+    font-size: 12px;
+    margin-top: 10px;
+}
+  .about-image img{
+      width: 320px;
+      padding-left: 5px;
+  }
+  .time{
+    margin-left: 50px;
+  }
+  .services-bg{
+    margin-top: 70px;
+  }
+  .services-text h1{
+      font-size: 22px;
+  }
+  .services-text h1 span{
+      font-size: 22px;
+  }
+  .services-text p{
+      font-size: 12px;
+  }
+  .contact-image img{
+    width: 300px;
+  }
+  .contact-form p{
+    font-size: 13px;
+  }
+  .contact-form input{
+    padding: 0.5rem 80px;
+    font-size: 14px;
+}
+.contact-form textarea{
+    border-radius: 10px;
+      padding: 5px 80px;
+  }
+  .services-text p {
+    font-size: 14px;
+}
+.vector-flex1{
+    flex-direction: column;
+}
+.vector1 {
+    width: 280px;
+    border-width: 1px 0px 0px 0px;
+
+}
+.vector1 img{
+    width: 70px;
+}
+.vector-text h1 {
+    font-size: 16px;
+}
+.vector-text p{
+    font-size: 14px;
+}
+.contact-flex{
+    flex-direction: column;
+}
+  .contact-form{
+    background-color: #fdeaf3;
+    width: 330px;
+    height: 550px;
+    border-radius: 20px;
+    padding-left: 50px;
+    padding: 40px;
+
+}
+.contact-form h1{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.contact-form textarea{
+    border-radius: 10px;
+      padding: 5px 50px;
+  }
+.contact-form button{
+    min-width: 3.25rem;
+    margin-top: 10px;
+    padding: 0.5em 1.25em;
+}
+.footer-text p{
+    font-size: 9px;
+}
+.footer-text{
+    gap: 20px;
+}
+.footer-flex{
+    gap: 20px;
+}
+    
+}
 
 @media screen and (max-width: 414px){
-    .navbar{
-        gap: 110px;
-    } 
     .ban-flex{
         gap: 50px;
         flex-direction: column;
@@ -723,29 +1110,159 @@
     gap: 20px;
 }
 }
-@media screen and (max-width: 600px){
-    .navbar{
-        gap: 50%;
-    }
-    
-}
-@media screen and (max-width: 540px){
-    .navbar{
-        gap: 60%;
-    }
-    
-}
-@media screen and (max-width: 414px){
-    .navbar{
-        gap: 20%;
-    }
-    
-}
 
-@media screen and (max-width: 350px){
-    .navbar{
-        gap: 20%;
+@media screen and (max-width: 360px){
+    .ban-flex{
+        gap: 50px;
+        flex-direction: column;
     }
+    .ban-text{
+        margin-left: 10px;
+        text-align: center;
+    }
+    .ban-text h1 {
+        font-size: 40px;
+        text-align: center;
+  }
+  .ban-text h1 span{
+   font-size: 45px;
+  }
+  .ban-text p{
+    text-align: center;
+      font-size: 10px;
+      margin-top: 5px;
+  }
+  .ban-text button{
+      border: none;
+      background-color: #ef0c8f;
+      border-radius: 100px 100px 100px 100px;
+      box-shadow: 0px 0px 0px 0px #94e3ff42;
+      padding: 5px 10px 5px 10px;
+      margin-top: 10px;
+  }
+  .ban-text button a{
+      font-size: 8px;
+  }
+  .ban-image{
+    margin: 0;
+      width: 300px;
+  }
+  .about-flex{
+    flex-direction: column-reverse;
+    gap: 40px;
+    margin-top: 70px;
+  }
+  .about-text{
+    text-align: center;
+  }
+  .about-text h1 {
+      font-size: 22px;
+      text-align: center;
+  }
+  .about-text h1 span{
+      font-size: 22px;
+  }
+  .about-text p{
+      font-size: 10px;
+      text-align: center;
+      margin-top: 5px;
+  }
+  .about-text button{
+    padding: 5px 10px 5px 10px;
+    margin-top: 15px;
+  }
+  .about-text button a{
+    font-size: 8px;
+    margin-top: 10px;
+}
+  .about-image img{
+      width: 250px;
+      padding-left: 5px;
+  }
+  .time{
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+  .services-bg{
+    margin-top: 70px;
+  }
+  .services-text h1{
+      font-size: 20px;
+  }
+  .services-text h1 span{
+      font-size: 20px;
+  }
+  .services-text p{
+      font-size: 10px;
+  }
+  .contact-image img{
+    width: 300px;
+  }
+  .contact-form p{
+    font-size: 13px;
+  }
+  .contact-form input{
+    padding: 0.5rem 80px;
+    font-size: 14px;
+}
+.contact-form textarea{
+    border-radius: 10px;
+      padding: 5px 80px;
+  }
+  .services-text p {
+    font-size: 14px;
+}
+.vector-flex1{
+    flex-direction: column;
+}
+.vector1 {
+    width: 280px;
+    border-width: 1px 0px 0px 0px;
+
+}
+.vector1 img{
+    width: 70px;
+}
+.vector-text h1 {
+    font-size: 14px;
+}
+.vector-text p{
+    font-size: 12px;
+}
+.contact-flex{
+    flex-direction: column;
+}
+  .contact-form{
+    background-color: #fdeaf3;
+    width: 330px;
+    height: 550px;
+    border-radius: 20px;
+    padding-left: 50px;
+    padding: 40px;
+
+}
+.contact-form h1{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.contact-form textarea{
+    border-radius: 10px;
+      padding: 5px 50px;
+  }
+.contact-form button{
+    min-width: 3.25rem;
+    margin-top: 10px;
+    padding: 0.5em 1.25em;
+}
+.footer-text p{
+    font-size: 6px;
+}
+.footer-text{
+    gap: 5px;
+}
+.footer-flex{
+    gap: 10px;
+}
     
 }
 @media screen and (max-width: 280px){
