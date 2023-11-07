@@ -941,6 +941,7 @@ text-align: center;
       box-shadow: 0px 0px 0px 0px #94e3ff42;
       padding: 9px 18px 9px 18px;
       margin-top: 15px;
+      margin-left: 0;
   }
   .ban-text button a{
       font-size: 13px;
@@ -949,6 +950,7 @@ text-align: center;
     margin: 0;
       width: 450px;
   }
+  
   .about-flex{
     flex-direction: column-reverse;
     gap: 40px;
